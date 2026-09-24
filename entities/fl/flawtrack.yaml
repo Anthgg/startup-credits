@@ -31,14 +31,14 @@ offers:
     offer_slug: funded-startup-discount
     offer_slug_aliases: []
     title: 90% discount for funded startups
-    summary: Funded startups at Series A and beyond can apply to Flawtrack's startup program for a 90% discount on its security platform.
+    summary: Flawtrack's startup program gives funded startups at Series A and beyond a 90% discount.
     lifecycle:
       status: active
       effective_from: 2026-09-05T19:40:00.000Z
     economics:
       consideration:
         kind: variable
-        description: Funded startups at Series A and beyond pay Flawtrack's charges after the 90% startup discount; the page publishes no base price or discount period.
+        description: The startup receives a 90% discount for funded startups at Series A and beyond.
       benefits:
         - benefit_id: ben_01
           description: 90% discount for funded startups at Series A and beyond.
