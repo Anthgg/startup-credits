@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-05T19:40:00.000Z
   category: auth-security
 profile:
+  summary: Attack surface management, vulnerability management, threat intelligence and offensive security services such as penetration testing.
   description: Flawtrack provides attack surface management, vulnerability management, threat intelligence, and security services.
   links:
     site: https://www.flawtrack.com
@@ -21,7 +22,7 @@ programs:
     program_slug: flawtrack-startup-program
     program_slug_aliases: []
     title: Flawtrack Startup Program
-    summary: Security platform benefits for startups at different funding stages.
+    summary: Flawtrack's startup program offers free core features to pre-seed and seed startups, a 90% discount to funded startups from Series A, and perks for accelerator alumni.
     source_ids:
       - src_7989dae78849d6e430b7b560b1373ad1e614f1a01533f06ce89b4d5714c99bbf
 offers:
@@ -29,28 +30,28 @@ offers:
     program_id: prg_01m1sh694rkz6eea5am5xfqhdm
     offer_slug: funded-startup-discount
     offer_slug_aliases: []
-    title: Flawtrack Funded Startup Discount
-    summary: Flawtrack advertises a 90% discount for startups at Series A and later stages, with applications through its contact form.
+    title: 90% discount for funded startups
+    summary: Funded startups at Series A and beyond can apply to Flawtrack's startup program for a 90% discount on its security platform.
     lifecycle:
       status: active
       effective_from: 2026-09-05T19:40:00.000Z
     economics:
+      consideration:
+        kind: variable
+        description: Funded startups at Series A and beyond pay Flawtrack's charges after the 90% startup discount; the page publishes no base price or discount period.
       benefits:
         - benefit_id: ben_01
-          description: Discount for funded startups at Series A and beyond.
+          description: 90% discount for funded startups at Series A and beyond.
           kind: discount
           percentage:
             basis_points: 9000
             kind: exact
-      consideration:
-        description: Discounted service charges; the source does not publish a base price or discount duration.
-        kind: variable
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_01
-        reason: not-machine-evaluable
-        statement: Funded startup at Series A or a later funding stage.
+        reason: external-verification
+        statement: The startup is funded and at Series A or a later stage.
     roles:
       terms_authority_entity_id: ent_01m1sh694gcfdgv3be7ypjjpdz
       access_operator_entity_id: ent_01m1sh694gcfdgv3be7ypjjpdz
@@ -58,5 +59,6 @@ offers:
       availability: public
       method: form
       url: https://www.flawtrack.com/contact
+      instructions: Use Apply for Startup Program on the Flawtrack startups page, which opens the contact form.
     source_ids:
       - src_7989dae78849d6e430b7b560b1373ad1e614f1a01533f06ce89b4d5714c99bbf
